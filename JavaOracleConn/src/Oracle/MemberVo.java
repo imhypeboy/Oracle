@@ -1,30 +1,23 @@
 package Oracle;
 
-public class MemberVo {
-    private String empno;
-    private String ename;
-    private int sal;
- 
-    public MemberVo() {
- 
-    }
- 
-    public MemberVo(String empno, String ename, int sal) {
-        this.empno = empno;
-        this.ename = ename;
-        this.sal = sal;
-    }
- 
-    public String getEmpno() {
-        return empno;
-    }
- 
-    public String getEname() {
-        return ename;
-    }
- 
-    public int getSal() {
-        return sal;
-    }
-}
+public class MemberVO {
+	private String id;
+	private String pwd;
 
+	public MemberVO() {
+
+	}
+
+	public MemberVO(String id, String pwd) {
+		this.id = id;
+		this.pwd = pwd;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public String getPwd() {
+		return pwd;
+	}
+}
